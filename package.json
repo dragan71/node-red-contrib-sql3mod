@@ -1,0 +1,14 @@
+{
+    "name": "node-red-contrib-sql3mod",
+    "version": "1.0.0",
+    "description": "A sample of database connection",
+    "keywords": ["util", "functional", "server", "client", "browser"],
+    "author": "d.mihajlovic",
+    "contributors": [],
+    "dependencies": {},
+    "node-red": {
+        "nodes": {
+            "sql3mod": "sql3mod/sql3mod.js"
+        }
+    }
+}
