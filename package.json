@@ -5,7 +5,9 @@
     "keywords": ["util", "functional", "server", "client", "browser"],
     "author": "d.mihajlovic",
     "contributors": [],
-    "dependencies": {},
+    "dependencies"  : {
+        "mysql"   : "2.9.*"
+    },
     "node-red": {
         "nodes": {
             "sql3mod": "sql3mod/sql3mod.js"
