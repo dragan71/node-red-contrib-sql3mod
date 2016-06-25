@@ -104,7 +104,6 @@ module.exports = function (RED) {
             this.error("MySQL database not configured");
         }
     }
-    //RED.nodes.registerType("mysql",MysqlDBNodeIn);
     RED.nodes.registerType("sql3mod", Sql3ModNode);
 
 };
